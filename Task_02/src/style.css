@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: plum;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: purple;
+  height: 5%;
+}
+.head-title {
+  font-family:cursive;
+  margin: 1%;
+  color: #eee2dc;
+  background-color: transparent;
+}
+.head-btn {
+  width: 100px;
+  height: 2.5rem;
+  margin: 1%;
+  background-color:pink;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.card-body {
+  text-align: center;
+  color: black;
+}
+.card-body:hover{
+  color:red;
+}
+.card-img-top {
+  width: 100%;
+}
+
+.users-space {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.main {
+  border: 2px solid white;
+}
+
+
