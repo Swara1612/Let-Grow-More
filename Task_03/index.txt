@@ -1,0 +1,71 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form LGM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <nav>Student Enrollment Form</nav>
+        <div class="input-form">
+            <h1>Student Form</h1>
+            <form action="#" id="input-form">
+                <div class="input-group">
+                    <input type="text" class="input-field" id="name" required autofocus>
+                    <label for="name">Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" class="input-field" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="number" class="input-field" id="age" required>
+                    <label for="age">Age</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" class="input-field" id="addr" required>
+                    <label for="addr">Address</label>
+                </div>
+                <div class="input-select">
+                        <label for="addr">Gender</label>
+                        <label><input type="radio" name="male-female" id="male" value="Male">Male</label>
+                        <label><input type="radio" name="male-female" id="female" value="Female">Female</label>
+                        <label><input type="radio" name="male-female" id="female" value="Other">Other</label>
+                </div>
+                <div class="input-select">
+                            <label for="addr">Skills</label>
+                            <label><input type="checkbox" value="C++" id="cpp" class="checkbox">C++</label>
+                            <label><input type="checkbox" value="C" id="c" class="checkbox">C</label>
+                            <label><input type="checkbox" value="Java" id="java" class="checkbox">Java</label>
+                            <label><input type="checkbox" value="HTML" id="html" class="checkbox">HTML</label>
+                            <label><input type="checkbox" value="CSS" id="css" class="checkbox">CSS</label>
+                            <label><input type="checkbox" value="JavaScript" id="css" class="checkbox">JavaScript</label>
+                </div>
+                <div class="buttons">
+                    <button type="button" id="add-btn">SUBMIT</button>
+                    <button type="button" id="delete-btn">CLEAR</button>
+                </div>
+            </form>
+        </div>
+        <div class="line"></div>
+        <div class="table">
+            <h1>Student Details</h1>
+            <div class="scroll">
+                <table id="display">
+                    <tr>
+                        <th>Description</th>
+                        <th>Profile</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
